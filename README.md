@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Muhammad Uzair - DevOps and cloud Portfolio
 
 My portfolio website built with Next.js, TypeScript, and modern web technologies.
@@ -245,3 +246,7 @@ MIT
 ---
 
 Built with  using Next.js and modern DevOps practices.
+=======
+# muhammad-uzair-portfolio
+DevOps &amp; Cloud Engineer portfolio showcasing containerization, Kubernetes, CI/CD pipelines, automation, and cloud deployments.
+>>>>>>> bb13f5d5fb70f967d7565a1202f7ed1fe9306504
