@@ -1,8 +1,8 @@
-# Muhammad Uzair - DevOps Portfolio
+# Muhammad Uzair - DevOps and cloud Portfolio
 
-Professional portfolio website built with Next.js, TypeScript, and modern web technologies.
+My portfolio website built with Next.js, TypeScript, and modern web technologies.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -12,7 +12,7 @@ Professional portfolio website built with Next.js, TypeScript, and modern web te
 - **Icons**: Lucide React
 - **Theme**: Light/Dark Mode Support
 
-## 📦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -89,19 +89,18 @@ npm run storybook
 npm run build-storybook
 ```
 
-## 🎨 Features
+##  Features
 
-- ✅ **Fully Responsive**: Mobile-first design, works perfectly on all devices
-- ✅ **Light/Dark Mode**: Toggle between light and dark themes (default: dark)
-- ✅ **Modern UI**: Glassmorphism effects with smooth animations
-- ✅ **3D Interactive Scene**: React Three Fiber 3D DevOps visualization
-- ✅ **Smooth Animations**: Framer Motion throughout
-- ✅ **SEO Optimized**: Meta tags, sitemap, robots.txt
-- ✅ **Accessible**: WCAG compliant components
-- ✅ **Project Filtering**: Filter projects by category
-- ✅ **Contact Form**: Working contact form with validation
-- ✅ **Resume Download**: PDF resume download functionality
-- ✅ **Learning Journey**: Timeline visualization of career growth
+-  **Fully Responsive**: Mobile-first design, works perfectly on all devices
+-  **Modern UI**: Glassmorphism effects with smooth animations
+-  **3D Interactive Scene**: React Three Fiber 3D DevOps visualization
+-  **Smooth Animations**: Framer Motion throughout
+-  **SEO Optimized**: Meta tags, sitemap, robots.txt
+-  **Accessible**: WCAG compliant components
+-  **Project Filtering**: Filter projects by category
+-  **Contact Form**: Working contact form with validation
+-  **Resume Download**: PDF resume download functionality
+-  **Learning Journey**: Timeline visualization of career growth
 
 ## 📱 Mobile Responsiveness
 
@@ -118,28 +117,8 @@ All sections adapt seamlessly to different screen sizes with:
 - Mobile-friendly navigation
 - Optimized 3D scene for mobile
 
-## 🌓 Theme System
 
-The portfolio includes a complete light/dark mode system:
-
-- **Default Theme**: Dark mode
-- **Toggle Button**: Located in header (desktop and mobile)
-- **Persistent**: Theme preference saved in localStorage
-- **Smooth Transitions**: All color changes are animated
-
-### Light Mode Features:
-- White card backgrounds
-- Light color scheme
-- High contrast text
-- Subtle shadows
-
-### Dark Mode Features:
-- Dark card backgrounds
-- Dark color scheme
-- Glowing effects
-- Professional appearance
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── app/                    # Next.js App Router
@@ -186,7 +165,7 @@ The portfolio includes a complete light/dark mode system:
 └── next.config.js          # Next.js configuration
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -205,7 +184,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 - **Colors**: Customize colors in `tailwind.config.ts`
 - **Theme**: Adjust theme colors in `app/globals.css`
 
-## 🐳 Docker Deployment
+##  Docker Deployment
 
 ### Build Docker Image
 
@@ -232,15 +211,15 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## ☁️ AWS Deployment (Terraform)
+##  AWS Deployment (Terraform)
 
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed AWS deployment instructions.
 
-## ☸️ Kubernetes Deployment
+##  Kubernetes Deployment
 
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed Kubernetes deployment instructions.
 
-## 🔄 CI/CD
+##  CI/CD
 
 The project includes GitHub Actions workflows for:
 
@@ -251,11 +230,11 @@ The project includes GitHub Actions workflows for:
 
 Workflows are located in `.github/workflows/ci.yml`.
 
-## 📝 License
+##  License
 
 MIT
 
-## 👤 Author
+##  Author
 
 **Muhammad Uzair**
 
@@ -265,4 +244,4 @@ MIT
 
 ---
 
-Built with ❤️ using Next.js and modern DevOps practices.
+Built with  using Next.js and modern DevOps practices.
