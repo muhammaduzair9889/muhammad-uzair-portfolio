@@ -19,27 +19,27 @@ export default function Contact() {
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:contact@muhammaduzair.dev',
+      href: 'mailto:muhammaduzair8695@gmail.com',
       color: 'from-blue-500 to-blue-600',
     },
     {
       name: 'Phone',
       icon: Phone,
-      href: 'tel:+1234567890',
+      href: 'tel:+923271072378',
       color: 'from-emerald-500 to-emerald-600',
     },
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      href: 'https://wa.me/1234567890',
+      href: 'https://wa.me/03271072378',
       color: 'from-green-500 to-green-600',
     },
   ]
 
   const socialLinks = [
-    { name: 'GitHub', icon: Github, href: 'https://github.com', color: 'from-gray-700 to-gray-900' },
-    { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com', color: 'from-blue-600 to-blue-800' },
-    { name: 'Instagram', icon: Instagram, href: 'https://instagram.com', color: 'from-pink-500 to-purple-600' },
+    { name: 'GitHub', icon: Github, href: 'https://github.com/muhammaduzair9889', color: 'from-gray-700 to-gray-900' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'hhttps://www.linkedin.com/in/muhammad-uzair-b806a4394/', color: 'from-blue-600 to-blue-800' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/muhammad_uzair75/', color: 'from-pink-500 to-purple-600' },
   ]
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {

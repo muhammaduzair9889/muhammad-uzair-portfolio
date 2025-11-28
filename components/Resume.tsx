@@ -8,7 +8,7 @@ import Card from './ui/Card'
 export default function Resume() {
   const handleDownload = () => {
     const link = document.createElement('a')
-    link.href = '/assets/resume.pdf'
+    link.href = '/assets/CV.pdf'
     link.download = 'Muhammad_Uzair_Resume.pdf'
     link.click()
   }

@@ -4,10 +4,10 @@ import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com/muhammaduzair9889' },
+  { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/muhammad-uzair-b806a4394/' },
   { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
-  { name: 'Email', icon: Mail, href: 'mailto:contact@example.com' },
+  { name: 'Email', icon: Mail, href: 'mailto:muhammaduzair8695@gmail.com' },
 ]
 
 export default function Footer() {

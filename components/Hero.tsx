@@ -40,7 +40,7 @@ export default function Hero() {
 
   const handleDownloadCV = () => {
     const link = document.createElement('a')
-    link.href = '/assets/resume.pdf'
+    link.href = '/assets/CV.pdf'
     link.download = 'Muhammad_Uzair_Resume.pdf'
     link.click()
   }
@@ -93,7 +93,7 @@ export default function Hero() {
               className="flex flex-col gap-2 sm:gap-3 justify-center md:justify-start"
             >
               <Button variant="gradient" size="lg" onClick={handleHireMe} className="w-full sm:w-auto text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3">
-                Hire Me
+                Get In Touch
               </Button>
               <Button
                 variant="gradient"
