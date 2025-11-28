@@ -243,7 +243,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-200 mb-4">Contact Information</h3>
               <div className="space-y-4 text-gray-900 dark:text-gray-400">
                 <p>
-                  <strong className="text-gray-900 dark:text-gray-200">Email:</strong> contact@muhammaduzair.dev
+                  <strong className="text-gray-900 dark:text-gray-200">Email:</strong> muhammaduzair8695@gmail.com
                 </p>
                 <p>
                   <strong className="text-gray-900 dark:text-gray-200">Location:</strong> Available for remote work
