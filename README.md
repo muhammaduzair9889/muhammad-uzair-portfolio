@@ -238,7 +238,7 @@ MIT
 
 **Muhammad Uzair**
 
-- Portfolio: [muhammad-uzair-portfolio-three.vercel.app](https://muhammad-uzair-portfolio-three.vercel.app/)
+- Portfolio: [muhammad-uzair-portfolio](https://muhammad-uzair-portfolio-three.vercel.app/)
 - GitHub: [@muhammaduzair9889](https://github.com/muhammaduzair9889)
 - LinkedIn: [Muhammad Uzair](https://www.linkedin.com/in/muhammad-uzair-b806a4394/)
 
