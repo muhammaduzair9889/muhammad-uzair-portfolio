@@ -102,22 +102,6 @@ npm run build-storybook
 -  **Resume Download**: PDF resume download functionality
 -  **Learning Journey**: Timeline visualization of career growth
 
-## 📱 Mobile Responsiveness
-
-The portfolio is fully responsive and optimized for:
-- Mobile phones (320px+)
-- Tablets (768px+)
-- Laptops (1024px+)
-- Desktops (1280px+)
-
-All sections adapt seamlessly to different screen sizes with:
-- Responsive typography
-- Flexible grid layouts
-- Touch-optimized interactions
-- Mobile-friendly navigation
-- Optimized 3D scene for mobile
-
-
 ##  Project Structure
 
 ```
