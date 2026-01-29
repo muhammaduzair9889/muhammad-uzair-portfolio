@@ -2,7 +2,7 @@ import { Container } from '@/components/common/Container'
 import { motion } from 'framer-motion'
 import { CloudNetwork3D } from '@/components/background/CloudNetwork3D'
 
-const PROFILE_IMAGE_URL = '/images/image.jpeg'
+const PROFILE_IMAGE_URL = 'https://res.cloudinary.com/dfifdk8if/image/upload/v1769698565/image_qa1etn.jpg'
 
 export const Profile: React.FC = () => {
   return (

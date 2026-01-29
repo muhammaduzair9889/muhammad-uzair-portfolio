@@ -46,6 +46,55 @@ The website is fully responsive and optimized for modern browsers and devices.
 - Clear separation of skills, architecture, and automation work
 - Fully responsive layout for mobile, tablet, and desktop
 - Performance-aware rendering and lazy-loaded visuals
+- Cloud-based image hosting via Cloudinary for optimized delivery
+
+---
+
+## Setting Up Your Profile Image with Cloudinary
+
+Instead of storing images locally in this project, we're using **Cloudinary** — a cloud service that hosts your images and delivers them super fast to anyone viewing your portfolio, anywhere in the world.
+
+Think of Cloudinary as a smart image storage service. Once you upload your photo there, it automatically optimizes it, compresses it, and serves it from servers closest to your visitors. This means faster loading times and a better experience for people viewing your portfolio.
+
+### Here's How to Get Your Image Online
+
+**Step 1: Create Your Free Cloudinary Account**
+
+Head over to [cloudinary.com](https://cloudinary.com) and sign up for a free account. It takes about 2 minutes. Once you're in, you'll see a dashboard with something called your **Cloud Name** — that's like your personal space on Cloudinary. Keep note of it; you'll need it in a moment.
+
+**Step 2: Upload Your Profile Photo**
+
+1. In your Cloudinary dashboard, click on **Media Library** (it's usually in the top menu)
+2. Click the **Upload** button (the big blue one)
+3. Choose your profile picture from your computer — pick a  photo, ideally square-shaped (like 800×800 pixels or similar)
+4. Wait for it to upload
+
+**Step 3: Get Your Image Link**
+
+After uploading, click on your image in the Media Library. You'll see a bunch of information about it. Look for the **URL** — it will look something like this:
+
+```
+https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/your-image-name.jpg
+```
+
+Copy that entire URL. This is the web address where your image now lives on the internet.
+
+**Step 4: Put the Link in Your Code**
+
+Now you need to tell your portfolio where to find that image:
+
+1. Open the file `src/pages/Profile.tsx` in your code editor
+2. Near the top , you'll see a line that says `PROFILE_IMAGE_URL = '...'`
+3. Replace everything inside the quotes with your Cloudinary URL
+4. Do the same thing in `src/pages/Overview.tsx`
+
+Here's what it should look like:
+
+```typescript
+const PROFILE_IMAGE_URL = 'https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/your-image-name.jpg'
+```
+
+**That's it!** Now when you run or deploy your portfolio, it will fetch your image from Cloudinary's servers instead of storing it locally.
 
 ---
 
@@ -53,12 +102,12 @@ The website is fully responsive and optimized for modern browsers and devices.
 
 ### Prerequisites
 - Node.js (v18 or newer)
-- npm or yarn
+- npm
 
 ### Setup
 
 ```bash
-git clone <muhammaduzair9889/Muhammad-Uzair-Portfolio>
+git clone muhammaduzair9889/Muhammad-Uzair-Portfolio
 cd Muhammad-Uzair-Portfolio
 npm install
 ```
@@ -115,6 +164,7 @@ This portfolio can be deployed using several approaches:
 To adapt this portfolio for your own use:
 
 - Update personal information and content inside section components
+- Replace Cloudinary image URLs with your own in Profile.tsx and Overview.tsx
 - Modify project data and skill mappings
 - Adjust theme colors in `tailwind.config.js`
 - Replace or extend visual components as needed
