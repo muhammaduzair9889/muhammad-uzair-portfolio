@@ -58,7 +58,7 @@ The website is fully responsive and optimized for modern browsers and devices.
 ### Setup
 
 ```bash
-git clone <muhammaduzair9889/Muhammad-Uzair-Portfolio>
+git clone muhammaduzair9889/Muhammad-Uzair-Portfolio
 cd Muhammad-Uzair-Portfolio
 npm install
 ```
