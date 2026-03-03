@@ -90,7 +90,7 @@ export const Profile: React.FC = () => {
               </ul>
           </div>
 
-          <div className="mb-12">
+          {/* <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-automation">
               Professional Experience
             </h2>
@@ -114,7 +114,7 @@ export const Profile: React.FC = () => {
                 </ul>
               </motion.div>
             </div>
-          </div>
+          </div> */}
 
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange">

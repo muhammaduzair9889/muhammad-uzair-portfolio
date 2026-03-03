@@ -15,15 +15,17 @@ export const CertificationsAndMilestones: React.FC = () => {
 
   const milestones = [
     {
-      year: '2024 - 2025',
+      year: 'Feb 2026 - Pressent',
       quarter: 'Internship',
-      title: 'Cloud & DevOps Engineer Intern',
-      organization: 'Qasim Ali Shah Foundation',
+      title: 'DevOps Intern – Remote, United States',
+      organization: 'Springer Capital',
       description: 'Focused on AWS infrastructure, containerization, and CI/CD automation.',
       achievements: [
-        'AWS EKS Cloud Infrastructure Automation (99% uptime, 70% deployment time reduction)',
-        'Cloud-Native Containerized Deployment using ECS, Fargate, Docker, and Kubernetes',
-        'AWS Multi-VPC Cloud Architecture with secure networking and monitoring'
+        'Assist in managing AWS cloud infrastructure (EC2, S3, VPC) for internal and client-facing applications',
+        'Contribute to CI/CD pipeline configuration to automate build, integration, and deployment workflows',
+        'Utilize Docker for application containerization, ensuring portability and environment consistency',
+        'Monitor system performance and troubleshoot production issues to enhance reliability',
+        'Collaborate with engineering teams to apply security, scalability, and automation best practices'
       ],
       color: 'automation'
     },

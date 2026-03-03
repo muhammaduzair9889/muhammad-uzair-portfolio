@@ -70,7 +70,7 @@ const navLinks: NavLink[] = [
   },
   {
     path: '/certifications',
-    label: 'Milestones',
+    label: 'Experiences',
     icon: (
       <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
         <path strokeLinecap="round" strokeLinejoin="round" d="M4 19V5" />
