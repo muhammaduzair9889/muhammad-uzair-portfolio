@@ -129,7 +129,7 @@ export const Contact: React.FC = () => {
             >
               <h3 className="text-xl font-semibold text-automation mb-3">Current Role</h3>
               <p className="text-body-md text-gray-300">
-                Cloud & DevOps Engineer Intern at Qasim Ali Shah Foundation (2024–2025).
+                DevOps Engineer Intern at Springer Capital (Feb 2026 – May 2026).
               </p>
             </motion.div>
 

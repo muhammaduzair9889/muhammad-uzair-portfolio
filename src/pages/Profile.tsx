@@ -90,32 +90,6 @@ export const Profile: React.FC = () => {
               </ul>
           </div>
 
-          {/* <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-automation">
-              Professional Experience
-            </h2>
-            <div className="space-y-6">
-              <motion.div whileHover={{ y: -5 }} className="p-8 border-l-4 border-cloud bg-dark-secondary/15 backdrop-blur-md rounded-r-lg border border-dark-tertiary/40 hover:border-cloud/60 transition-all duration-300">
-                <h3 className="text-xl font-semibold text-cloud mb-2">Intern</h3>
-                <p className="text-body-sm text-gray-400 mb-4 font-semibold">Qasim Ali Shah Foundation | 2024 - 2025</p>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-cloud group-hover:text-automation transition-colors">▸</span>
-                    <span className="text-body-md text-gray-300 group-hover:text-gray-100 transition-colors">Completed professional programs enhancing decision-making and analytical thinking</span>
-                  </li>
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-cloud group-hover:text-automation transition-colors">▸</span>
-                    <span className="text-body-md text-gray-300 group-hover:text-gray-100 transition-colors">Collaborated on team projects to streamline processes and improve workflow efficiency</span>
-                  </li>
-                  <li className="flex items-start gap-3 group">
-                    <span className="text-cloud group-hover:text-automation transition-colors">▸</span>
-                    <span className="text-body-md text-gray-300 group-hover:text-gray-100 transition-colors">Planned and managed tasks using structured methods to deliver practical solutions</span>
-                  </li>
-                </ul>
-              </motion.div>
-            </div>
-          </div> */}
-
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange">
               Education

@@ -15,17 +15,17 @@ export const CertificationsAndMilestones: React.FC = () => {
 
   const milestones = [
     {
-      year: 'Feb 2026 - Pressent',
+      year: 'Feb 2026 - May 2026',
       quarter: 'Internship',
-      title: 'DevOps Intern – Remote, United States',
+      title: 'DevOps Engineer Intern – Remote, United States',
       organization: 'Springer Capital',
       description: 'Focused on AWS infrastructure, containerization, and CI/CD automation.',
       achievements: [
-        'Assist in managing AWS cloud infrastructure (EC2, S3, VPC) for internal and client-facing applications',
-        'Contribute to CI/CD pipeline configuration to automate build, integration, and deployment workflows',
-        'Utilize Docker for application containerization, ensuring portability and environment consistency',
-        'Monitor system performance and troubleshoot production issues to enhance reliability',
-        'Collaborate with engineering teams to apply security, scalability, and automation best practices'
+        'Assisted in managing AWS cloud infrastructure (EC2, S3, VPC) for internal and client-facing applications',
+        'Contributed to CI/CD pipeline configuration to automate build, integration, and deployment workflows',
+        'Utilized Docker and Kubernetes for application containerization and orchestration, ensuring portability and environment consistency',
+        'Monitored system performance and troubleshot production issues to enhance reliability',
+        'Collaborated with engineering teams to apply security, scalability, and automation best practices'
       ],
       color: 'automation'
     },
