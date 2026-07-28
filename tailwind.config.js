@@ -11,20 +11,24 @@ export default {
         'dark-bg': '#0a0e27',
         'dark-secondary': '#1a1f3a',
         'dark-tertiary': '#2d3561',
-        
+
         // Primary accent - Cloud (Blue)
+        'cloud': '#00d9ff',
         'accent-cloud': '#00d9ff',
         'accent-cloud-dark': '#0099cc',
-        
+
         // Secondary accent - Automation (Green)
+        'automation': '#00ff88',
         'accent-automation': '#00ff88',
         'accent-automation-dark': '#00cc6a',
-        
+
         // Tertiary accent - Security (Violet)
+        'security': '#d4a5ff',
         'accent-security': '#d4a5ff',
         'accent-security-dark': '#a855f7',
-        
+
         // Supporting accent - Orange
+        'orange': '#ff9a3c',
         'accent-orange': '#ff9a3c',
         'accent-cyan': '#00d9ff',  // Keep for backward compatibility
         'accent-blue': '#3b82f6',  // Keep for backward compatibility

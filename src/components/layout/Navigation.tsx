@@ -128,26 +128,28 @@ export const Navigation: React.FC = () => {
             >
               <Link
                 to="/"
-                className="text-headline-md font-bold bg-gradient-to-r from-cloud via-automation to-security bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+                className="flex items-baseline gap-2"
               >
-                DevOps Portfolio
+                <span className="text-headline-md font-bold text-cloud hover:text-automation transition-colors">
+                  Muhammad Uzair
+                </span>
+                <span className="hidden sm:inline text-body-sm text-gray-400">Cloud &amp; DevOps Engineer</span>
               </Link>
             </motion.div>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center gap-1">
+            <div className="hidden lg:flex items-center gap-1">
               {navLinks.map((link, idx) => (
                 <motion.div key={idx} whileHover={{ y: -2 }}>
                   <Link
                     to={link.path}
-                    className={`px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2 text-body-sm font-medium ${
+                    className={`px-3 py-2 rounded-lg transition-all duration-300 text-body-sm font-medium ${
                       location.pathname === link.path
                         ? 'bg-cloud bg-opacity-20 text-cloud border border-cloud border-opacity-50'
                         : 'text-gray-300 hover:text-cloud hover:bg-dark-secondary'
                     }`}
                   >
-                    <span className="flex items-center justify-center">{link.icon}</span>
-                    <span className="hidden lg:inline">{link.label}</span>
+                    {link.label}
                   </Link>
                 </motion.div>
               ))}
@@ -155,7 +157,7 @@ export const Navigation: React.FC = () => {
 
             {/* Mobile Menu Button */}
             <motion.button
-              className="md:hidden p-2 rounded-lg hover:bg-dark-secondary transition-colors"
+              className="lg:hidden p-2 rounded-lg hover:bg-dark-secondary transition-colors"
               onClick={() => setIsOpen(!isOpen)}
               whileTap={{ scale: 0.95 }}
             >
@@ -180,7 +182,7 @@ export const Navigation: React.FC = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="fixed inset-0 z-30 md:hidden pt-20"
+            className="fixed inset-0 z-30 lg:hidden pt-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}

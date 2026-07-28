@@ -25,19 +25,17 @@ export const Overview: React.FC = () => {
               <div className="lg:col-span-1">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-cloud/20 to-automation/20 rounded-2xl blur-xl"></div>
-                  <div className="relative p-5 bg-dark-secondary/30 backdrop-blur-xs rounded-2xl border border-cloud/30 shadow-xl">
-                    <div className="aspect-square rounded-2xl overflow-hidden bg-dark-bg/60 border border-cloud/30">
-                      <img
-                        src={PROFILE_IMAGE_URL}
-                        alt="Muhammad Uzair"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                    <div className="mt-4 text-center">
-                      <h3 className="text-headline-md text-cloud">Muhammad Uzair</h3>
-                      <p className="text-body-sm text-automation">Cloud & DevOps Engineer</p>
-                    </div>
+                  <div className="relative aspect-square rounded-2xl overflow-hidden bg-dark-bg/60 border border-cloud/30 shadow-xl">
+                    <img
+                      src={PROFILE_IMAGE_URL}
+                      alt="Muhammad Uzair"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
+                </div>
+                <div className="mt-4 text-center">
+                  <h3 className="text-headline-md text-cloud">Muhammad Uzair</h3>
+                  <p className="text-body-sm text-automation">Cloud & DevOps Engineer</p>
                 </div>
               </div>
 
@@ -50,11 +48,11 @@ export const Overview: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="p-4 rounded-lg border border-cloud/20 bg-dark-secondary/30 backdrop-blur-xs">
                     <p className="text-body-sm text-gray-400">Current Focus</p>
-                    <p className="text-body-md text-cloud">Full-time student, BS Computer Science</p>
+                    <p className="text-body-md text-cloud">Cloud & DevOps Engineering</p>
                   </div>
                   <div className="p-4 rounded-lg border border-automation/20 bg-dark-secondary/30 backdrop-blur-xs">
                     <p className="text-body-sm text-gray-400">Education</p>
-                    <p className="text-body-md text-automation">BS Computer Science (2022–2026)</p>
+                    <p className="text-body-md text-automation">BS Computer Science, NUML (2022–2026)</p>
                   </div>
                   <div className="p-4 rounded-lg border border-security/20 bg-dark-secondary/30 backdrop-blur-xs">
                     <p className="text-body-sm text-gray-400">Focus Areas</p>

@@ -26,18 +26,18 @@ export const Profile: React.FC = () => {
                 <div className="sticky top-32">
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-br from-cloud/20 to-automation/20 rounded-2xl blur-xl"></div>
-                    <div className="relative p-6 bg-dark-secondary/80 backdrop-blur-sm rounded-2xl border border-cloud/30 shadow-xl">
-                      <div className="aspect-square rounded-2xl overflow-hidden bg-dark-bg/70 border border-cloud/30 shadow-inner mb-4">
-                        <img
-                          src={PROFILE_IMAGE_URL}
-                          alt="Muhammad Uzair"
-                          className="w-full h-full object-cover"
-                          referrerPolicy="no-referrer"
-                        />
-                      </div>
-                      <h3 className="text-headline-md text-cloud text-center mb-1">Muhammad Uzair</h3>
-                      <p className="text-body-sm text-automation text-center">Cloud & DevOps Engineer</p>
+                    <div className="relative aspect-square rounded-2xl overflow-hidden bg-dark-bg/70 border border-cloud/30 shadow-xl">
+                      <img
+                        src={PROFILE_IMAGE_URL}
+                        alt="Muhammad Uzair"
+                        className="w-full h-full object-cover"
+                        referrerPolicy="no-referrer"
+                      />
                     </div>
+                  </div>
+                  <div className="mt-4 text-center">
+                    <h3 className="text-headline-md text-cloud mb-1">Muhammad Uzair</h3>
+                    <p className="text-body-sm text-automation">Cloud & DevOps Engineer</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export const Profile: React.FC = () => {
             <motion.div whileHover={{ y: -5 }} className="p-8 border-l-4 border-automation bg-dark-secondary/15 backdrop-blur-md rounded-r-lg border border-dark-tertiary/40 hover:border-automation/60 transition-all duration-300">
               <h3 className="text-xl font-semibold text-automation mb-2">Bachelor of Science in Computer Science</h3>
               <p className="text-body-sm text-gray-400 mb-3 font-semibold">National University of Modern Languages, Lahore</p>
-              <p className="text-body-md text-gray-300">Expected Graduation: 2026</p>
+              <p className="text-body-md text-gray-300">Graduated: 2026</p>
             </motion.div>
           </div>
 

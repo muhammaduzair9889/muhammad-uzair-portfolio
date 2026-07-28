@@ -156,7 +156,7 @@ export const ToolingAndPlatforms: React.FC = () => {
             <div className="p-8 bg-gradient-to-r from-dark-secondary/20 to-dark-bg/30 rounded-lg border border-automation/40 hover:border-automation/70 backdrop-blur-md transition-all duration-300">
               <h3 className="text-xl font-semibold text-automation mb-4">Technology Focus</h3>
               <p className="text-body-md text-gray-300 mb-6">
-                Focus on reliable, scalable infrastructure using AWS services, container orchestration, and infrastructure as code. 
+                Focus on reliable, scalable infrastructure using AWS services, container orchestration, and infrastructure as code.
                 Emphasis on automation through GitHub Actions and observability with CloudWatch.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

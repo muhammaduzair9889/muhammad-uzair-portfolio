@@ -8,7 +8,7 @@ export const CertificationsAndMilestones: React.FC = () => {
       title: 'BS Computer Science',
       issuer: 'National University of Modern Languages (NUML)',
       date: '2022 - 2026',
-      status: 'In Progress',
+      status: 'Completed',
       color: 'cloud'
     }
   ]
@@ -32,9 +32,9 @@ export const CertificationsAndMilestones: React.FC = () => {
     {
       year: '2022 - 2026',
       quarter: 'Education',
-      title: 'BS Computer Science (In Progress)',
+      title: 'BS Computer Science',
       organization: 'National University of Modern Languages (NUML)',
-      description: 'Undergraduate program in Computer Science.',
+      description: 'Completed undergraduate degree in Computer Science.',
       achievements: [
         'BS Computer Science, NUML Lahore (2022–2026)'
       ],
@@ -176,7 +176,7 @@ export const CertificationsAndMilestones: React.FC = () => {
             <motion.div whileHover={{ y: -5 }} className="p-8 bg-gradient-to-r from-dark-secondary/20 to-dark-bg/30 rounded-lg border border-cloud/40 hover:border-cloud/70 backdrop-blur-md transition-all duration-300">
               <h3 className="text-xl font-semibold text-cloud mb-4">Milestone Highlights</h3>
               <p className="text-body-md text-gray-300 mb-6">
-                Focused on cloud infrastructure automation, container orchestration, and secure AWS architecture 
+                Focused on cloud infrastructure automation, container orchestration, and secure AWS architecture
                 while completing a BS in Computer Science.
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
